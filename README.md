@@ -18,7 +18,7 @@ Para empezar se puede usar un IDE online (repl.it)
 Para mostrar un texto se usa la palabra reservada print() y lo que se quiere mostrar entre comillas.
 Para que el usuario ingrese datos y estos queden guardados se usa la palabra reservada input()
 Se escriben comentarios con el caracter #, todo lo que siga al caracter no se va a imprimir, sirve de guia para un futuro o como guia de lo que se hace.
-
+Para calcular la longitud de un string se usa la palabra reservada len()
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -41,3 +41,35 @@ shorten seaborn.scatterplot() to sns.scatterplot().
 
 In this exercise, we'll learn to import numpy, a module for performing mathematical operations on lists of data. The standard alias for numpy is np.
 
+pd.read_csv() convierte un archivo en una tabla en Python
+plt.plot() convierte datos en un grafico de lineas
+plt.show() muestra el grafico en una nueva ventana
+
+plt.plot(df.letter_index, df.frequency, label=`Ransom')
+La funcion comienza con el modulo en el que la funcion vive (plt)
+se sigue por el nombre de la funcion (plot)
+Los argumentos claves dben ir tras los argumentos posicionales
+Comienzan con el nombre del argumento(label) seguido del signo igual(=)
+Seguido por el argumento(Ransom)
+# Import pandas
+import pandas as pd
+
+# Load the 'ransom.csv' into a DataFrame
+r = pd.read_csv('ransom.csv')
+
+# Display DataFrame
+print(r)
+-------------------
+# Plot a graph
+plt.plot(x_values, y_values)
+
+# Display the graph
+plt.show()
+----------------------
+plate = 'FRQ****'
+
+# Call the function lookup_plate()
+lookup_plate(plate)
+
+# Call lookup_plate() with the keyword argument for color
+lookup_plate(plate, color='Green')
