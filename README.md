@@ -13,7 +13,8 @@ las variables tienen varios tipos entre ellos estan los floats que representan l
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 100 days of Python:
-Dia 1: Printing, commenting, debugging, string manipulation and variables.
+#Dia 1: Printing, commenting, debugging, string manipulation and variables.
+
 Para empezar se puede usar un IDE online (repl.it)
 Para mostrar un texto se usa la palabra reservada print() y lo que se quiere mostrar entre comillas.
 Para que el usuario ingrese datos y estos queden guardados se usa la palabra reservada input()
