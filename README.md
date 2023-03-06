@@ -1,4 +1,4 @@
-## Curso-de-Python##
+## Curso-de-Python ##
 
 Para utilizar Python, se debe descargar desde la pagina oficial https://www.python.org/downloads/
 al descargar el instalador, se debe seleccionar la opcion añadir path para poder ejecutarla desde cualquier ruta desde nuestro sistema. Al instalar para 
@@ -9,15 +9,50 @@ Reglas para nombrar variables:
 -debe comenzar con una letra
 -despues de la primer letra se pueden usar, letras, numeros y guiones
 -No se pueden usar espacios o caracteres especiales.
-las variables tienen varios tipos entre ellos estan los floats que representan los enteros y decimales y los strings que representan texto
+las variables tienen varios tipos entre ellos estan los floats que representan los enteros y decimales y los strings que representan texto.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Python para Backend(Codigofacilito.com)**
+
+** Python para Backend(Codigofacilito.com) **
 La extension para los archivos python es .py.
+print("Hola mundo")
+Variable: dato que puede cambiar de valor y que funciona como una etiqueta en Python.
+Declaracion de una variable:
+<nombre> = <valor>
+Constante: Dato que no varia su valor en toda la ejecucion del programa.
+  TITULO_CURSO = "Curso profesional de Python"
+  
+ Listado de palabras reservadas:
+  Aquí el listado de todas ellas:
 
+*False	*class	*is	*return
+*None	*continue	*lambda	*try
+*True	*def	*nonlocal	*while
+*and	*del	*not	*with
+*as	*elif	*or	*yield
+*assert	*else	*pass	*
+*break	*except	raise	*
+  https://www.programiz.com/python-programming/keyword-list
+  
+  Los comentarios son piezas de codigo o mensajes que no se ejecutan.
+  Para realizar comentarios de una linea se usa # y para comentarios largos se usa """ al inicio y tambien  al final
+  tipos de datos: 
+String, Int, Float y Bool
+  Si es un texto largo es conveniente usar triples comillas dobles o triples comillas simples. 
+  Int incluye los numeros positivos y negativos
+  Float incluye los numeros de punto decimal
+  Bool tipo de dato que solo puede almacenar dos tipos de valor, True o False
+  Operadores relacionales:
+  <, <=, >, >=, == , !=.
+  Operadores logicos:
+  and, or y not
+  and es verdadero si todas las proposiciones son verdaderas, or es verdadero si al menos una es verdadera, not niega el valor de una proposicion.
+  
+  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-100 days of Python:
-#Dia 1: Printing, commenting, debugging, string manipulation and variables.
+* 100 days of Python: *
+# Dia 1: Printing, commenting, debugging, string manipulation and variables.
 
 Para empezar se puede usar un IDE online (repl.it)
 Para mostrar un texto se usa la palabra reservada print() y lo que se quiere mostrar entre comillas.
@@ -27,8 +62,10 @@ Para calcular la longitud de un string se usa la palabra reservada len()
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#PYTHON para Data Science:
+# PYTHON para Data Science:
+  
 Los modulos agrupan herramientas relacionadas en Python. Por ejemplo:
+  
 -matplotlib(crea graficos)
 -pandas(carga datos tabulares)
 -scikit-learn(realiza machine learning)
@@ -36,6 +73,7 @@ Los modulos agrupan herramientas relacionadas en Python. Por ejemplo:
 -nltk(funciona con datos de texto)
 
 Importing Python modules
+  
 Modules (sometimes called packages or libraries) help group together related sets of tools in Python. In this exercise, we'll examine two modules that are 
 frequently used by Data Scientists:
 para importar un modulo simplemente se escribe import seguido de un espacio y el nombre del modulo.
@@ -44,15 +82,19 @@ statsmodels: used in machine learning; usually aliased as sm
 seaborn: a visualization library; usually aliased as sns
 Note that each module has a standard alias, which allows you to access the tools inside of the module without typing as many characters. For example, 
 aliasing lets us
+  
 shorten seaborn.scatterplot() to sns.scatterplot().
 
 In this exercise, we'll learn to import numpy, a module for performing mathematical operations on lists of data. The standard alias for numpy is np.
 
 pd.read_csv() convierte un archivo en una tabla en Python
+  
 plt.plot() convierte datos en un grafico de lineas
+  
 plt.show() muestra el grafico en una nueva ventana
 
 plt.plot(df.letter_index, df.frequency, label=`Ransom')
+  
 La funcion comienza con el modulo en el que la funcion vive (plt)
 se sigue por el nombre de la funcion (plot)
 Los argumentos claves dben ir tras los argumentos posicionales
