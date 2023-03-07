@@ -22,32 +22,34 @@ Declaracion de una variable:
 Constante: Dato que no varia su valor en toda la ejecucion del programa.
   TITULO_CURSO = "Curso profesional de Python"
   
- Listado de palabras reservadas:
+ *Listado de palabras reservadas:*
   Aquí el listado de todas ellas:
 
-*False	*class	*is	*return
-*None	*continue	*lambda	*try
-*True	*def	*nonlocal	*while
-*and	*del	*not	*with
-*as	*elif	*or	*yield
-*assert	*else	*pass	*
-*break	*except	raise	*
+*False	  *class	    *is	         *return 
+*None	    *continue	  *lambda	    *try
+*True	    *def	      *nonlocal	  *while
+*and	    *del	      *not	      *with
+*as	      *elif	      *or	        *yield
+*assert	  *else	      *pass	
+*break	  *except	    *raise	
   https://www.programiz.com/python-programming/keyword-list
   
+  *Comentarios:* 
   Los comentarios son piezas de codigo o mensajes que no se ejecutan.
   Para realizar comentarios de una linea se usa # y para comentarios largos se usa """ al inicio y tambien  al final
-  tipos de datos: 
-String, Int, Float y Bool
+  *tipos de datos:* 
+    String, Int, Float y Bool
   Si es un texto largo es conveniente usar triples comillas dobles o triples comillas simples. 
   Int incluye los numeros positivos y negativos
   Float incluye los numeros de punto decimal
   Bool tipo de dato que solo puede almacenar dos tipos de valor, True o False
-  Operadores relacionales:
+  *Operadores relacionales:*
   <, <=, >, >=, == , !=.
-  Operadores logicos:
+  *Operadores logicos:*
   and, or y not
   and es verdadero si todas las proposiciones son verdaderas, or es verdadero si al menos una es verdadera, not niega el valor de una proposicion.
-  
+  Para leer valores por teclado se usa input().
+  Las funciones int(), float(), y == permiten cambiar el tipo de dato para una conversion. 
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
