@@ -16,14 +16,16 @@ las variables tienen varios tipos entre ellos estan los floats que representan l
 ** Python para Backend(Codigofacilito.com) **
 La extension para los archivos python es .py.
 print("Hola mundo")
-Variable: dato que puede cambiar de valor y que funciona como una etiqueta en Python.
+
+# Variable: dato que puede cambiar de valor y que funciona como una etiqueta en Python.
 Declaracion de una variable:
 <nombre> = <valor>
-Constante: Dato que no varia su valor en toda la ejecucion del programa.
+  
+# Constante: Dato que no varia su valor en toda la ejecucion del programa.
   TITULO_CURSO = "Curso profesional de Python"
   
- *Listado de palabras reservadas:*
-  Aquí el listado de todas ellas:
+ #Listado de palabras reservadas:
+  
 
 *False	  *class	    *is	         *return 
 *None	    *continue	  *lambda	    *try
@@ -32,24 +34,35 @@ Constante: Dato que no varia su valor en toda la ejecucion del programa.
 *as	      *elif	      *or	        *yield
 *assert	  *else	      *pass	
 *break	  *except	    *raise	
+  
+  
   https://www.programiz.com/python-programming/keyword-list
   
-  *Comentarios:* 
+  # Comentarios:
   Los comentarios son piezas de codigo o mensajes que no se ejecutan.
   Para realizar comentarios de una linea se usa # y para comentarios largos se usa """ al inicio y tambien  al final
-  *tipos de datos:* 
+  
+  
+  # tipos de datos: 
     String, Int, Float y Bool
   Si es un texto largo es conveniente usar triples comillas dobles o triples comillas simples. 
   Int incluye los numeros positivos y negativos
   Float incluye los numeros de punto decimal
   Bool tipo de dato que solo puede almacenar dos tipos de valor, True o False
-  *Operadores relacionales:*
+  
+  
+  # Operadores relacionales:
   <, <=, >, >=, == , !=.
-  *Operadores logicos:*
+  
+  
+  # Operadores logicos:
   and, or y not
   and es verdadero si todas las proposiciones son verdaderas, or es verdadero si al menos una es verdadera, not niega el valor de una proposicion.
+  
+  
   Para leer valores por teclado se usa input().
   Las funciones int(), float(), y == permiten cambiar el tipo de dato para una conversion. 
+  
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -102,6 +115,7 @@ se sigue por el nombre de la funcion (plot)
 Los argumentos claves dben ir tras los argumentos posicionales
 Comienzan con el nombre del argumento(label) seguido del signo igual(=)
 Seguido por el argumento(Ransom)
+  
 # Import pandas
 import pandas as pd
 
