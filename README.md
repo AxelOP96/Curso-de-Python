@@ -1,4 +1,4 @@
-## Curso-de-Python ##
+# Curso-de-Python 
 
 Para utilizar Python, se debe descargar desde la pagina oficial https://www.python.org/downloads/
 al descargar el instalador, se debe seleccionar la opcion añadir path para poder ejecutarla desde cualquier ruta desde nuestro sistema. Al instalar para 
@@ -17,14 +17,14 @@ las variables tienen varios tipos entre ellos estan los floats que representan l
 La extension para los archivos python es .py.
 print("Hola mundo")
 
-# Variable: dato que puede cambiar de valor y que funciona como una etiqueta en Python.
+## Variable: dato que puede cambiar de valor y que funciona como una etiqueta en Python.
 Declaracion de una variable:
 <nombre> = <valor>
   
-# Constante: Dato que no varia su valor en toda la ejecucion del programa.
+## Constante: Dato que no varia su valor en toda la ejecucion del programa.
   TITULO_CURSO = "Curso profesional de Python"
   
- #Listado de palabras reservadas:
+ ## Listado de palabras reservadas:
   
 
 *False	  *class	    *is	         *return 
@@ -38,12 +38,12 @@ Declaracion de una variable:
   
   https://www.programiz.com/python-programming/keyword-list
   
-  # Comentarios:
+  ## Comentarios:
   Los comentarios son piezas de codigo o mensajes que no se ejecutan.
   Para realizar comentarios de una linea se usa # y para comentarios largos se usa """ al inicio y tambien  al final
   
   
-  # tipos de datos: 
+  ## tipos de datos: 
     String, Int, Float y Bool
   Si es un texto largo es conveniente usar triples comillas dobles o triples comillas simples. 
   Int incluye los numeros positivos y negativos
@@ -51,11 +51,11 @@ Declaracion de una variable:
   Bool tipo de dato que solo puede almacenar dos tipos de valor, True o False
   
   
-  # Operadores relacionales:
+  ## Operadores relacionales:
   <, <=, >, >=, == , !=.
   
   
-  # Operadores logicos:
+  ## Operadores logicos:
   and, or y not
   and es verdadero si todas las proposiciones son verdaderas, or es verdadero si al menos una es verdadera, not niega el valor de una proposicion.
   
@@ -63,6 +63,38 @@ Declaracion de una variable:
   Para leer valores por teclado se usa input().
   Las funciones int(), float(), y == permiten cambiar el tipo de dato para una conversion. 
   
+  ## Listas:
+  lista = list()
+  lista = []
+  
+  sub_lista = lista_cursos[0:3]
+  sub_lista = lista_cursos[0:]
+  sub_lista = lista_cursos[0:100]
+  
+  Metodos utiles para trabajar con listas
+  .append(" ") agrega un elemento al final de nuestra lista
+  .len() nos dice la longitud del string o array
+  .insert(1, "C#") el primer argumento especifica la posicion y el segundo el elemento que queremos que este ahi, los siguientes elementos se mueven un lugar
+  .extend() agrega los elementos de una lista a otra
+  .remove()busca y remueve ese elemento de la lista
+  del lista_cursos[0] borra ese indice de la lista
+  .clear() reinicia los valores de una lista
+  
+  .sort() ordena ascendentemente los valores de una lista
+  .sort(reverse=true) ordena descendentemente los valores
+  min(lista)
+  max(lista)
+  lista.index(5) retorna el indice donde se encuentra el valor 5
+  ## Tuplas:
+  No pueden cambiar su valor pero si modificar su contenido
+  
+  sub_tupla = cursos[0:3]
+  print(sub_tupla)
+  
+  * lo guarda como lista
+  _ omite el valor
+  
+  zip() comprime los valores
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
