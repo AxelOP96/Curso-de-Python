@@ -52,11 +52,11 @@ Declaracion de una variable:
   
   
   ## Operadores relacionales:
-  <, <=, >, >=, == , !=.
+    <, <=, >, >=, == , !=.
   
   
   ## Operadores logicos:
-  and, or y not
+    and, or y not
   and es verdadero si todas las proposiciones son verdaderas, or es verdadero si al menos una es verdadera, not niega el valor de una proposicion.
   
   
@@ -64,29 +64,30 @@ Declaracion de una variable:
   Las funciones int(), float(), y == permiten cambiar el tipo de dato para una conversion. 
   
   ## Listas:
-  lista = list()
-  lista = []
+    lista = list()
+    lista = []
   
   sub_lista = lista_cursos[0:3]
   sub_lista = lista_cursos[0:]
   sub_lista = lista_cursos[0:100]
   
-  Metodos utiles para trabajar con listas
-  .append(" ") agrega un elemento al final de nuestra lista
-  .len() nos dice la longitud del string o array
-  .insert(1, "C#") el primer argumento especifica la posicion y el segundo el elemento que queremos que este ahi, los siguientes elementos se mueven un lugar
-  .extend() agrega los elementos de una lista a otra
-  .remove()busca y remueve ese elemento de la lista
-  del lista_cursos[0] borra ese indice de la lista
-  .clear() reinicia los valores de una lista
+  ## Metodos utiles para trabajar con listas
+    .append(" ") agrega un elemento al final de nuestra lista
+    .len() nos dice la longitud del string o array
+    .insert(1, "C#") el primer argumento especifica la posicion y el segundo el elemento que queremos que este ahi, los siguientes elementos se mueven un lugar
+    .extend() agrega los elementos de una lista a otra
+    .remove()busca y remueve ese elemento de la lista
+    del lista_cursos[0] borra ese indice de la lista
+    .clear() reinicia los valores de una lista
   
   .sort() ordena ascendentemente los valores de una lista
   .sort(reverse=true) ordena descendentemente los valores
   min(lista)
   max(lista)
   lista.index(5) retorna el indice donde se encuentra el valor 5
+  
   ## Tuplas:
-  No pueden cambiar su valor pero si modificar su contenido
+   No pueden cambiar su valor pero si modificar su contenido
   
   sub_tupla = cursos[0:3]
   print(sub_tupla)
@@ -96,6 +97,13 @@ Declaracion de una variable:
   
   zip() comprime los valores
   
+  .split() divide el array en strings separados por espacios
+  .join() une formando un String
+  
+  Strings:
+  Concatenacion: unir strings
+  -Con +
+  -nombre_completo = 'Mr. %s %s' %(nombre, apellido)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * 100 days of Python: *
