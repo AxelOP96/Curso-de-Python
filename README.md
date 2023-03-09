@@ -112,6 +112,24 @@ la funcion print() cuenta con un atributo llamado sep=' ' que indica como se van
     diccionario.keys()
     diccionario.values()
    
+  ## Condicionales
+    if <Bool>:
+    print("Hola")
+ ## Operador ternario
+    color= 'verde' if calificacion >=7 else 'rojo'
+  ## For
+    for valor in range(5, 21)
+        print(valor)
+  
+  ## Funcion lambda
+    funcion_grados = lambda grados : grados * 1.8 + 32
+  
+  ## Decoradores:
+    def funcion_a(funcion_b):
+	    def funcion_c():
+		    pass
+
+	    return funcion_c
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
