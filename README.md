@@ -13,7 +13,7 @@ las variables tienen varios tipos entre ellos estan los floats que representan l
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-** Python para Backend(Codigofacilito.com) **
+## Python para Backend(Codigofacilito.com) 
 La extension para los archivos python es .py.
 print("Hola mundo")
 
@@ -79,31 +79,40 @@ Declaracion de una variable:
     .remove()busca y remueve ese elemento de la lista
     del lista_cursos[0] borra ese indice de la lista
     .clear() reinicia los valores de una lista
-  
-  .sort() ordena ascendentemente los valores de una lista
-  .sort(reverse=true) ordena descendentemente los valores
-  min(lista)
-  max(lista)
-  lista.index(5) retorna el indice donde se encuentra el valor 5
+    .sort() ordena ascendentemente los valores de una lista
+    .sort(reverse=true) ordena descendentemente los valores
+    min(lista)
+    max(lista)
+    lista.index(5) retorna el indice donde se encuentra el valor 5
   
   ## Tuplas:
-   No pueden cambiar su valor pero si modificar su contenido
+    No pueden cambiar su valor pero si modificar su contenido
+    sub_tupla = cursos[0:3]
+    print(sub_tupla)
+    * lo guarda como lista
+    _ omite el valor
+    zip() comprime los valores
+    .split() divide el array en strings separados por espacios
+    .join() une formando un String
   
-  sub_tupla = cursos[0:3]
-  print(sub_tupla)
+ ## Strings:
+    Concatenacion: unir strings
+    -Con +
+    -nombre_completo = 'Mr. %s %s' %(nombre, apellido)
+    nombre_completo = 'Mr. {} {}.'.format(nombre, apellido)
+    nombre_completo = f'Mr. {nombre} {apellido}.'
+
+la funcion print() cuenta con un atributo llamado sep=' ' que indica como se van a separar los elementos
   
-  * lo guarda como lista
-  _ omite el valor
+ ## Diccionarios:
+    diccionario = {}
+    diccionario = dict()
+
+    diccionario = {"total":55}
+    diccionario.keys()
+    diccionario.values()
+   
   
-  zip() comprime los valores
-  
-  .split() divide el array en strings separados por espacios
-  .join() une formando un String
-  
-  Strings:
-  Concatenacion: unir strings
-  -Con +
-  -nombre_completo = 'Mr. %s %s' %(nombre, apellido)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * 100 days of Python: *
