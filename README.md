@@ -104,13 +104,9 @@ Declaracion de una variable:
 	Para ordenar una lista, use el método .sort() de la lista. Python ordenará una lista de cadenas en orden alfabético y una lista de números en orden numérico
 	Para ordenar una lista en orden inverso, llame a .sort(reverse=True) en la lista:
 	
-
-
-
-  
-  sub_lista = lista_cursos[0:3]
-  sub_lista = lista_cursos[0:]
-  sub_lista = lista_cursos[0:100]
+	sub_lista = lista_cursos[0:3]
+  	sub_lista = lista_cursos[0:]
+  	sub_lista = lista_cursos[0:100]
   
   ## Metodos utiles para trabajar con listas
     .append(" ") agrega un elemento al final de nuestra lista
@@ -125,6 +121,7 @@ Declaracion de una variable:
     min(lista)
     max(lista)
     lista.index(5) retorna el indice donde se encuentra el valor 5
+    
   ### El método format()
 	El método .format() usa llaves ({}) como marcadores de posición dentro de una cadena y utiliza la asignación de variables para reemplazar texto.
 	>>> mass_percentage = "1/6"
@@ -251,6 +248,28 @@ la funcion print() cuenta con un atributo llamado sep=' ' que indica como se van
     		for valor in range(5, 21)
         		print(valor)
   
+  	##Funcion
+		Para crear una función, use la palabra clave def, seguida de un nombre, paréntesis y, después, del cuerpo con el código de función
+		def rocket_parts():
+    			print("payload, propellant, structure")
+		Puede parecer sorprendente que el valor de la variable output sea None. Esto se debe a que la función rocket_parts() no ha devuelto explícitamente 
+		un valor. En Python, si una función no devuelve explícitamente un valor, devuelve implícitamente None
+		En Python, varias funciones integradas requieren argumentos. Algunas funciones integradas hacen que los argumentos sean opcionales. Las 
+		funciones integradas están disponibles de inmediato, por lo que no es necesario importarlas explícitamente.
+
+		Un ejemplo de una función integrada que requiere un argumento es any(). Esta función toma un objeto iterable (por ejemplo, una lista) y devuelve 
+		True si algún elemento del objeto iterable es True. De lo contrario, devuelve False
+		
+		from datetime import timedelta, datetime
+
+		def arrival_time(hours=51):
+    			now = datetime.now()
+    			arrival = now + timedelta(hours=hours)
+    			return arrival.strftime("Arrival: %A %H:%M")
+		La función usa el módulo datetime para definir la hora actual. Usa timedelta para permitir la operación de suma que da como resultado un objeto 
+		de hora nuevo. Después de calcular ese resultado, devuelve la estimación arrival con formato de cadena	
+		
+		
   	## Funcion lambda
     	funcion_grados = lambda grados : grados * 1.8 + 32
   
